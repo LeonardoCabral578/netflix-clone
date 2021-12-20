@@ -1,3 +1,3 @@
--cur_console:d:"C:\www\_MERN\netflix-clone\client":t:frontEnd npm start
--cur_console:s1T50V:d:"C:\www\_MERN\netflix-clone\api":t:server npm start
--cur_console:s1T50V:d:"C:\www\_MERN\netflix-clone\admin":t:server npm start
+-cur_console:d:"C:\www\_MERN\netflix-clone\client":t:client npm start
+-cur_console:s1T50V:d:"C:\www\_MERN\netflix-clone\api":t:api npm start
+-cur_console:s1T50V:d:"C:\www\_MERN\netflix-clone\admin":t:admin npm start
