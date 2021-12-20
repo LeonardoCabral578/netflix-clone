@@ -1,5 +1,5 @@
 import { useContext, useEffect, useState } from "react";
-import "./newList.css";
+import "./newList.scss";
 import storage from "../../firebase";
 import { createMovie, getMovies } from "../../context/movieContext/apiCalls";
 import { MovieContext } from "../../context/movieContext/MovieContext";
@@ -9,7 +9,7 @@ import { useHistory } from "react-router-dom";
 
 export default function NewList() {
   const [list, setList] = useState(null);
-  const history = useHistory()
+  const history = useHistory();
 
   const { dispatch } = useContext(ListContext);
   const { movies, dispatch: dispatchMovie } = useContext(MovieContext);
@@ -31,7 +31,7 @@ export default function NewList() {
   const handleSubmit = (e) => {
     e.preventDefault();
     createList(list, dispatch);
-    history.push("/lists")
+    history.push("/lists");
   };
 
   return (
